@@ -12,6 +12,22 @@ What things you need to install the software and how to install them
 
 * Java 11
 
+## Running Tests
+
+Maven is required for building and the execution of the testing suite.
+
+To run the tests, you also need to create a `.env` file in the project root directory containing the following key, value pairs.
+Replace `VALUE` with the appropriate API key
+
+```
+FOOD_DB_APP_API_KEY=VALUE
+FOOD_DB_APP_ID=VALUE
+NUTR_ANLYS_APP_API_KEY=VALUE
+NUTR_ANLYS_APP_APP_ID=VALUE
+RCP_SRCH_APP_API_KEY=VALUE
+RCP_SRCH_APP_ID=VALUE
+```
+
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management
